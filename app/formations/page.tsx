@@ -152,7 +152,7 @@ const FormationsPage = () => {
         "Normes ISO, COSO"
       ],
       public: "Auditeurs, contrôleurs, ONG",
-      highlight: "Très demandé par ONG et bailleurs"
+      highlight: " "
     },
     {
       category: "finance",
@@ -181,7 +181,7 @@ const FormationsPage = () => {
         "Open data & systèmes d'information"
       ],
       public: "Administrations, collectivités",
-      highlight: "Formations stratégiques bailleurs"
+      highlight: " "
     },
     {
       category: "secteur",
@@ -257,7 +257,7 @@ const FormationsPage = () => {
         "Reporting bailleurs"
       ],
       public: "ONG, projets de développement",
-      highlight: "Très demandé par bailleurs"
+      highlight: " "
     },
   ];
 
