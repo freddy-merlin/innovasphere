@@ -5,12 +5,13 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 
 const Header = () => {
-  // Menu data simplifié
+  
   const menuData = [
     { id: 1, title: "Accueil", path: "/" },
     { id: 2, title: "À propos de nous", path: "/about" },
     { id: 3, title: "Nos services", path: "/services" },
-    { id: 4, title: "Contact", path: "/contact" },
+    { id: 4, title: "Nos Formations", path: "/formations" },
+    { id: 5, title: "Contact", path: "/contact" },
   ];
 
   // Navbar toggle
