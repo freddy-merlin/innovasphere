@@ -135,7 +135,7 @@ const Footer = () => {
                       href="#services"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
-                      Formations IT
+                      Formations
                     </Link>
                   </li>
                 </ul>

@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Notre Expertise IT"
+                title="Notre Expertise"
                 paragraph="Innovasphere combine expertise technique et pédagogique pour offrir des solutions IT complètes. Nous transformons vos idées en réalité digitale tout en formant vos équipes aux dernières technologies."
                 mb="44px"
               />
@@ -35,7 +35,7 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="10+ ans d'expertise collective" />
+                    <List text="Nos experts cumulent plus de 10 ans d’expérience" />
                     <List text="Développement sur mesure" />
                     <List text="Solutions évolutives" />
                   </div>

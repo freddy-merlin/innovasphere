@@ -23,7 +23,7 @@ const Video = () => {
               <div className="relative aspect-[77/40] items-center justify-center">
                 <Image 
                   src="/images/video/Réunion.png" 
-                  alt="Innovasphere - Démonstration de nos solutions IT" 
+                  alt="Innovasphere - Démonstration de nos solutions" 
                   fill 
                   className="object-cover"
                 />

@@ -6,7 +6,7 @@ const ServicesPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Nos Services IT"
+        pageName="Nos Services"
         description="Découvrez notre gamme complète de services informatiques : développement, solutions Power Apps, consulting et formations professionnelles."
       />
       
@@ -65,7 +65,7 @@ const ServicesPage = () => {
       <AboutSectionTwo />
       
       {/* Section Formations (optionnelle) */}
-<section className="py-16 bg-gray-50 dark:bg-gray-900">
+{/*<section className="py-16 bg-gray-50 dark:bg-gray-900">
   <div className="container">
     <div className="text-center mb-16">
       <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">
@@ -138,7 +138,7 @@ const ServicesPage = () => {
       </div>
     </div>
   </div>
-</section>
+</section>*/}
       
       {/* Section Contact pour demande de devis */}
       <section id="contact-services" className="py-16">

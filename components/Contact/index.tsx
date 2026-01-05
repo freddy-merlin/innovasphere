@@ -78,8 +78,8 @@ const Contact = () => {
                         <option value="development">Développement logiciel</option>
                         <option value="web">Développement web & mobile</option>
                         <option value="powerapps">Solutions Power Apps</option>
-                        <option value="training">Formations IT</option>
-                        <option value="consulting">Consulting IT</option>
+                        <option value="training">Formations</option>
+                        <option value="consulting">Consulting</option>
                         <option value="support">Support & maintenance</option>
                         <option value="other">Autre</option>
                       </select>

@@ -310,7 +310,8 @@ const FormationsPage = () => {
             {filteredFormations.map((formation, index) => (
               <div
                 key={index}
-                className="bg-white dark:bg-black p-6 rounded-xl shadow-lg dark:shadow-gray-800/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+               className="bg-white dark:bg-black p-6 rounded-xl shadow-lg dark:shadow-gray-800/50 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-white dark:border-white/20"
+
               >
                 <div className="text-5xl mb-4">{formation.icon}</div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">
@@ -329,7 +330,7 @@ const FormationsPage = () => {
                 {formation.highlight && (
                   <div className="mb-3 px-3 py-2 bg-yellow-100 dark:bg-yellow-900/30 rounded-lg">
                     <p className="text-xs font-semibold text-yellow-800 dark:text-yellow-200">
-                      ⭐ {formation.highlight}
+                       {formation.highlight}
                     </p>
                   </div>
                 )}

@@ -11,7 +11,7 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Nos Services IT"
+            title="Nos Services"
             paragraph="Découvrez notre gamme complète de services informatiques conçus pour répondre à tous vos besoins digitaux. De la conception à la formation, nous vous accompagnons à chaque étape."
             center
           />

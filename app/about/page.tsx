@@ -7,7 +7,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="À propos d'Innovasphere"
-        description="Découvrez notre expertise, notre approche unique et notre passion pour l'innovation technologique et la formation IT."
+        description="Découvrez notre expertise, notre approche unique et notre passion pour l'innovation technologique et la formation."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

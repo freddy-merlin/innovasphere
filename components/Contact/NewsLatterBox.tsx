@@ -8,7 +8,7 @@ const NewsLatterBox = () => {
         Restez informé des dernières technologies
       </h3>
       <p className="mb-5 border-b border-body-color border-opacity-25 pb-11 text-base font-medium leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Recevez nos actualités, conseils IT et offres de formations exclusives.  
+        Recevez nos actualités, conseils et offres de formations exclusives.  
       </p>
       <form>
         <input
