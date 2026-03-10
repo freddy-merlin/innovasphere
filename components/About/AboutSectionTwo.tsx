@@ -10,10 +10,12 @@ const AboutSectionTwo = () => {
               className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[600px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image
-                src="/images/about/reunion2.png"
-                alt="Innovasphere - Approche et méthodologie"
-                fill
+             <Image
+                src="/images/about/reunionceo.png"
+                alt="Innovasphere - Solutions IT et formations"
+                width={550}      // largeur fixe
+                height={530}     // hauteur fixe approximative
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>

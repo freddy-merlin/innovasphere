@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 const RelatedPost = ({
@@ -15,8 +14,13 @@ const RelatedPost = ({
   return (
     <div className="flex items-center lg:block xl:flex">
       <div className="mr-5 lg:mb-3 xl:mb-0">
-        <div className="relative h-[60px] w-[70px] overflow-hidden rounded-md sm:h-[75px] sm:w-[85px]">
-          <Image src={image} alt={title} fill />
+        <div className="overflow-hidden rounded-md">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={image}
+            alt={title}
+            className="h-[60px] w-[70px] object-cover sm:h-[75px] sm:w-[85px]"
+          />
         </div>
       </div>
       <div className="w-full">

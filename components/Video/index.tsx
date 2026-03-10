@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
 const Video = () => {
@@ -20,19 +19,14 @@ const Video = () => {
               className="wow fadeInUp mx-auto max-w-[770px] overflow-hidden rounded-md"
               data-wow-delay=".15s"
             >
-              <div className="relative aspect-[77/40] items-center justify-center">
-                <Image 
-                  src="/images/video/Réunion.png" 
-                  alt="Innovasphere - Démonstration de nos solutions" 
-                  fill 
-                  className="object-cover"
+              <div className="relative aspect-[77/40]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/video/reunion.png"
+                  alt="Innovasphere - Démonstration de nos solutions"
+                  className="h-full w-full object-cover"
                 />
-                <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                  <div className="text-center text-white">
-                    <h3 className="mb-4 text-2xl font-bold">Nos Réalisations</h3>
-                    <p className="max-w-md">Solutions sur mesure pour entreprises et formations certifiantes</p>
-                  </div>
-                </div>
+                <div className="absolute inset-0 flex items-center justify-center bg-black/30" />
               </div>
             </div>
           </div>
